@@ -1,1 +1,0 @@
-import{j as r}from"./vendor-react-D0FwwBHZ.js";import{P as o}from"./PageTransition-C2EDS10A.js";import t from"./GalleryGrid-Bxt8BKOe.js";import"./vendor-motion-CJxuTFRs.js";import"./vendor-icons-i8PzNL_5.js";import"./vendor-i18n-2XRR0dCJ.js";function n(){return r.jsx(o,{children:r.jsx(t,{})})}export{n as default};
