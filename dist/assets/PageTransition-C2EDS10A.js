@@ -1,0 +1,1 @@
+import{j as t}from"./vendor-react-D0FwwBHZ.js";import{m as o}from"./vendor-motion-CJxuTFRs.js";function r({children:i}){return t.jsx(o.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0,y:-20},transition:{duration:.5,ease:[.22,1,.36,1]},children:i})}export{r as P};

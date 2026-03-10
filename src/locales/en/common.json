@@ -1,0 +1,133 @@
+{
+	"header": {
+		"nav": {
+			"home": "Home",
+			"about": "About",
+			"gallery": "Gallery",
+			"contact": "Contact"
+		},
+		"aria": {
+			"scrollTop": "Scroll to top",
+			"instagram": "Instagram",
+			"email": "Email",
+			"switchToLight": "Switch to light mode",
+			"switchToDark": "Switch to dark mode",
+			"closeMenu": "Close menu",
+			"openMenu": "Open menu",
+			"switchLanguage": "Switch language to {{language}}"
+		},
+		"language": {
+			"selector": "Language",
+			"en": "EN",
+			"hr": "HR",
+			"de": "DE",
+			"cs": "CS",
+			"pl": "PL",
+			"english": "English",
+			"croatian": "Croatian",
+			"german": "German",
+			"czech": "Czech",
+			"polish": "Polish"
+		}
+	},
+	"home": {
+		"hero": {
+			"subtitle": "Your perfect Mediterranean escape. Villa Coco offers a heated pool, modern interior, and a relaxing atmosphere right by the sea.",
+			"contactButton": "Contact Us",
+			"imageAlt": "Villa Coco"
+		}
+	},
+	"about": {
+		"title": "About Us",
+		"subtitle": "A refined stay designed for comfort and calm.",
+		"imageAlt": "Villa interior",
+		"description": {
+			"paragraph1": "Villa Coco is a modern and peaceful oasis in Kožino, located just 50 meters from the sea. It offers comfortable accommodation for up to 8 guests, with elegant bedrooms, spacious living areas, fully equipped kitchens, and modern bathrooms.",
+			"paragraph2": "Your stay is completed by a private heated pool, terrace, and garden, perfect for relaxing throughout the season. Thanks to its proximity to the beach, shops, and seaside promenade, and with Zadar and Nin only a short drive away, Villa Coco is an ideal choice for families, couples, and small groups seeking peace, comfort, and Mediterranean charm.",
+			"paragraph3": "Thoughtful details, airy interiors, and a quiet neighborhood create a setting where every day feels easy—from morning coffee on the terrace to sunset walks by the sea."
+		},
+		"amenitiesTitle": "What We Offer",
+		"amenities": {
+			"privateHeatedPool": "Private heated pool",
+			"equippedKitchens": "Two fully equipped kitchens",
+			"separateApartments": "Two separate apartments",
+			"privateParking": "Private garage and separate parking",
+			"elegantBathrooms": "Two elegant bathrooms",
+			"outdoorTerrace": "Outdoor terrace with barbecue",
+			"doubleBeds": "Two large double beds",
+			"singleBeds": "Two single beds",
+			"seaView": "Sea view",
+			"fastWifi": "Fast Wi‑Fi"
+		}
+	},
+	"gallery": {
+		"title": "Gallery",
+		"showAll": "Show all photos (+{{count}})",
+		"showLess": "Show fewer photos",
+		"images": {
+			"01-villa-coco-kozino-pool-night": { "alt": "Villa Coco Kozino Pool at Night", "title": "Villa Coco Kozino", "description": "Pool at Night" },
+			"02-villa-coco-kozino-drone-neighborhood-oblique": { "alt": "Villa Coco Kozino Drone Neighborhood View", "title": "Villa Coco Kozino", "description": "Drone Neighborhood View" },
+			"03-villa-coco-kozino-pool-day": { "alt": "Villa Coco Kozino Pool During Day", "title": "Villa Coco Kozino", "description": "Pool During Day" },
+			"04-villa-coco-kozino-drone-oblique": { "alt": "Villa Coco Kozino Drone Oblique View", "title": "Villa Coco Kozino", "description": "Drone Oblique View" },
+			"05-villa-coco-kozino-2-living-day": { "alt": "Villa Coco Kozino Apartment 2 Living Room", "title": "Villa Coco Kozino", "description": "Apartment 2 Living Room" },
+			"06-villa-coco-kozino-2-kitchen-modern": { "alt": "Villa Coco Kozino Apartment 2 Modern Kitchen", "title": "Villa Coco Kozino", "description": "Apartment 2 Modern Kitchen" },
+			"07-villa-coco-kozino-2-master-bedroom": { "alt": "Villa Coco Kozino Apartment 2 Master Bedroom", "title": "Villa Coco Kozino", "description": "Apartment 2 Master Bedroom" },
+			"08-villa-coco-kozino-2-king-bedroom-wide-day": { "alt": "Villa Coco Kozino Apartment 2 King Bedroom Wide", "title": "Villa Coco Kozino", "description": "Apartment 2 King Bedroom" },
+			"09-villa-coco-kozino-2-bedroom-double": { "alt": "Villa Coco Kozino Apartment 2 Double Bedroom", "title": "Villa Coco Kozino", "description": "Apartment 2 Double Bedroom" },
+			"10-villa-coco-kozino-2-bedroom-double-day": { "alt": "Villa Coco Kozino Apartment 2 Double Bedroom Day", "title": "Villa Coco Kozino", "description": "Apartment 2 Double Bedroom" },
+			"11-villa-coco-kozino-2-bathroom": { "alt": "Villa Coco Kozino Apartment 2 Bathroom", "title": "Villa Coco Kozino", "description": "Apartment 2 Bathroom" },
+			"12-villa-coco-kozino-2-bathroom-wide": { "alt": "Villa Coco Kozino Apartment 2 Bathroom Wide", "title": "Villa Coco Kozino", "description": "Apartment 2 Bathroom" },
+			"13-villa-coco-kozino-1-living-day": { "alt": "Villa Coco Kozino Apartment 1 Living Room", "title": "Villa Coco Kozino", "description": "Apartment 1 Living Room" },
+			"14-villa-coco-kozino-1-kitchen-modern": { "alt": "Villa Coco Kozino Apartment 1 Modern Kitchen", "title": "Villa Coco Kozino", "description": "Apartment 1 Modern Kitchen" },
+			"15-villa-coco-kozino-1-king-bedroom-day": { "alt": "Villa Coco Kozino Apartment 1 King Bedroom", "title": "Villa Coco Kozino", "description": "Apartment 1 King Bedroom" },
+			"16-villa-coco-kozino-1-king-bedroom-wide-day": { "alt": "Villa Coco Kozino Apartment 1 King Bedroom Wide", "title": "Villa Coco Kozino", "description": "Apartment 1 King Bedroom" },
+			"17-villa-coco-kozino-1-twin-bedroom-corner-day": { "alt": "Villa Coco Kozino Apartment 1 Twin Bedroom", "title": "Villa Coco Kozino", "description": "Apartment 1 Twin Bedroom" },
+			"18-villa-coco-kozino-1-bathroom-detail": { "alt": "Villa Coco Kozino Apartment 1 Bathroom Detail", "title": "Villa Coco Kozino", "description": "Apartment 1 Bathroom Detail" },
+			"19-villa-coco-kozino-1-bathroom-vanity-detail": { "alt": "Villa Coco Kozino Apartment 1 Bathroom Vanity", "title": "Villa Coco Kozino", "description": "Apartment 1 Bathroom Vanity" },
+			"20-villa-coco-kozino-1-bathroom-daylight": { "alt": "Villa Coco Kozino Apartment 1 Bathroom Daylight", "title": "Villa Coco Kozino", "description": "Apartment 1 Bathroom Daylight" },
+			"21-villa-coco-kozino-terrace-sunset": { "alt": "Villa Coco Kozino Terrace at Sunset", "title": "Villa Coco Kozino", "description": "Terrace at Sunset" },
+			"22-villa-coco-kozino-drone-sea-view": { "alt": "Villa Coco Kozino Drone Sea View", "title": "Villa Coco Kozino", "description": "Drone Sea View" }
+		}
+	},
+	"contact": {
+		"title": "Contact Us",
+		"backgroundAlt": "Villa background",
+		"toastSuccess": "Message sent successfully! We'll get back to you soon.",
+		"toastError": "Something went wrong. Please try again.",
+		"directLabel": "Or reach us directly:",
+		"form": {
+			"nameLabel": "Name",
+			"namePlaceholder": "Your name",
+			"emailLabel": "Email",
+			"emailPlaceholder": "your.email@example.com",
+			"messageLabel": "Message",
+			"messagePlaceholder": "Tell us about your plans...",
+			"privacyNotice": "By sending this form, your data is processed only to answer your inquiry.",
+			"privacyLink": "Read our Privacy Information",
+			"sending": "SENDING...",
+			"send": "SEND"
+		}
+	},
+	"privacy": {
+		"title": "Privacy Information",
+		"intro": "We respect your privacy and process personal data in line with the General Data Protection Regulation (GDPR).",
+		"controller": "Data controller: Villa Coco Kožino, contact via email: villacocokozino@gmail.com.",
+		"purpose": "Purpose of processing: to respond to inquiries sent through the contact form.",
+		"legalBasis": "Legal basis: legitimate interest and/or steps prior to entering into a contract.",
+		"retention": "Retention: data is kept only as long as necessary to handle your inquiry and related communication.",
+		"recipients": "Recipients: trusted service providers (hosting, email, and technical support) only when necessary.",
+		"rights": "Your rights: access, rectification, erasure, restriction, objection, and data portability where applicable.",
+		"complaint": "If you believe your rights are violated, you can lodge a complaint with your local data protection authority (in Croatia: AZOP)."
+	},
+	"notFound": {
+		"title": "Page Not Found",
+		"description": "The page you're looking for doesn't exist or has been moved.",
+		"backHome": "Back to Home"
+	},
+	"footer": {
+		"copyright": "© {{year}} Villa Coco. All rights reserved.",
+		"privacy": "Privacy & Data Protection",
+		"privacySummary": "Data from the contact form is used only to respond to your inquiry. We process only the minimum required data and keep it only as long as needed.",
+		"privacyRights": "You may request access, correction, or deletion of your data at villacocokozino@gmail.com. You can also lodge a complaint with your local data protection authority (Croatia: AZOP)."
+	}
+}

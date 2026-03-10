@@ -1,0 +1,133 @@
+{
+	"header": {
+		"nav": {
+			"home": "Početna",
+			"about": "O nama",
+			"gallery": "Galerija",
+			"contact": "Kontakt"
+		},
+		"aria": {
+			"scrollTop": "Povratak na vrh",
+			"instagram": "Instagram",
+			"email": "E-pošta",
+			"switchToLight": "Prebaci na svijetli način rada",
+			"switchToDark": "Prebaci na tamni način rada",
+			"closeMenu": "Zatvori izbornik",
+			"openMenu": "Otvori izbornik",
+			"switchLanguage": "Promijeni jezik na {{language}}"
+		},
+		"language": {
+			"selector": "Jezik",
+			"en": "EN",
+			"hr": "HR",
+			"de": "DE",
+			"cs": "CS",
+			"pl": "PL",
+			"english": "Engleski",
+			"croatian": "Hrvatski",
+			"german": "Njemački",
+			"czech": "Češki",
+			"polish": "Poljski"
+		}
+	},
+	"home": {
+		"hero": {
+			"subtitle": "Vaš savršeni mediteranski bijeg. Villa Coco nudi grijani bazen, moderan interijer i opuštajuću atmosferu tik uz more.",
+			"contactButton": "Kontaktirajte nas",
+			"imageAlt": "Villa Coco"
+		}
+	},
+	"about": {
+		"title": "O nama",
+		"subtitle": "Profinjen smještaj stvoren za udobnost i mir.",
+		"imageAlt": "Interijer vile",
+		"description": {
+			"paragraph1": "Villa Coco je moderna i mirna oaza u Kožinu, smještena svega 50 metara od mora. Nudi udoban smještaj za do 8 gostiju, s elegantnim spavaćim sobama, prostranim dnevnim boravcima, potpuno opremljenim kuhinjama i modernim kupaonicama.",
+			"paragraph2": "Uživanje upotpunjuju privatni grijani bazen, terasa i vrt, idealni za opuštanje tijekom cijele sezone. Zahvaljujući blizini plaže, trgovine i šetnice te kratkoj udaljenosti od Zadra i Nina, Villa Coco je savršen izbor za obitelji, parove i manje grupe koje traže mir, udobnost i mediteranski šarm.",
+			"paragraph3": "Promišljeni detalji, prozračan interijer i mirno susjedstvo stvaraju ugođaj u kojem je svaki dan lagan — od jutarnje kave na terasi do večernjih šetnji uz more."
+		},
+		"amenitiesTitle": "Što nudimo",
+		"amenities": {
+			"privateHeatedPool": "Privatni grijani bazen",
+			"equippedKitchens": "Dvije potpuno opremljene kuhinje",
+			"separateApartments": "Dva odvojena apartmana",
+			"privateParking": "Privatna garaža i odvojeno parkiralište",
+			"elegantBathrooms": "Dvije elegantne kupaonice",
+			"outdoorTerrace": "Vanjska terasa s roštiljem",
+			"doubleBeds": "Dva velika bračna kreveta",
+			"singleBeds": "Dva jednokrevetna ležaja",
+			"seaView": "Pogled na more",
+			"fastWifi": "Brzi Wi‑Fi"
+		}
+	},
+	"gallery": {
+		"title": "Galerija",
+		"showAll": "Prikaži sve fotografije (+{{count}})",
+		"showLess": "Prikaži manje fotografija",
+		"images": {
+			"01-villa-coco-kozino-pool-night": { "alt": "Villa Coco Kožino bazen noću", "title": "Villa Coco Kožino", "description": "Bazen noću" },
+			"02-villa-coco-kozino-drone-neighborhood-oblique": { "alt": "Villa Coco Kožino pogled dronom na susjedstvo", "title": "Villa Coco Kožino", "description": "Pogled dronom na susjedstvo" },
+			"03-villa-coco-kozino-pool-day": { "alt": "Villa Coco Kožino bazen danju", "title": "Villa Coco Kožino", "description": "Bazen danju" },
+			"04-villa-coco-kozino-drone-oblique": { "alt": "Villa Coco Kožino kosi pogled dronom", "title": "Villa Coco Kožino", "description": "Kosi pogled dronom" },
+			"05-villa-coco-kozino-2-living-day": { "alt": "Villa Coco Kožino apartman 2 dnevni boravak", "title": "Villa Coco Kožino", "description": "Apartman 2 - dnevni boravak" },
+			"06-villa-coco-kozino-2-kitchen-modern": { "alt": "Villa Coco Kožino apartman 2 moderna kuhinja", "title": "Villa Coco Kožino", "description": "Apartman 2 - moderna kuhinja" },
+			"07-villa-coco-kozino-2-master-bedroom": { "alt": "Villa Coco Kožino apartman 2 glavna spavaća soba", "title": "Villa Coco Kožino", "description": "Apartman 2 - glavna spavaća soba" },
+			"08-villa-coco-kozino-2-king-bedroom-wide-day": { "alt": "Villa Coco Kožino apartman 2 king spavaća soba", "title": "Villa Coco Kožino", "description": "Apartman 2 - king spavaća soba" },
+			"09-villa-coco-kozino-2-bedroom-double": { "alt": "Villa Coco Kožino apartman 2 dvokrevetna spavaća soba", "title": "Villa Coco Kožino", "description": "Apartman 2 - dvokrevetna spavaća soba" },
+			"10-villa-coco-kozino-2-bedroom-double-day": { "alt": "Villa Coco Kožino apartman 2 dvokrevetna spavaća soba danju", "title": "Villa Coco Kožino", "description": "Apartman 2 - dvokrevetna spavaća soba" },
+			"11-villa-coco-kozino-2-bathroom": { "alt": "Villa Coco Kožino apartman 2 kupaonica", "title": "Villa Coco Kožino", "description": "Apartman 2 - kupaonica" },
+			"12-villa-coco-kozino-2-bathroom-wide": { "alt": "Villa Coco Kožino apartman 2 kupaonica široki kadar", "title": "Villa Coco Kožino", "description": "Apartman 2 - kupaonica" },
+			"13-villa-coco-kozino-1-living-day": { "alt": "Villa Coco Kožino apartman 1 dnevni boravak", "title": "Villa Coco Kožino", "description": "Apartman 1 - dnevni boravak" },
+			"14-villa-coco-kozino-1-kitchen-modern": { "alt": "Villa Coco Kožino apartman 1 moderna kuhinja", "title": "Villa Coco Kožino", "description": "Apartman 1 - moderna kuhinja" },
+			"15-villa-coco-kozino-1-king-bedroom-day": { "alt": "Villa Coco Kožino apartman 1 king spavaća soba", "title": "Villa Coco Kožino", "description": "Apartman 1 - king spavaća soba" },
+			"16-villa-coco-kozino-1-king-bedroom-wide-day": { "alt": "Villa Coco Kožino apartman 1 king spavaća soba široki kadar", "title": "Villa Coco Kožino", "description": "Apartman 1 - king spavaća soba" },
+			"17-villa-coco-kozino-1-twin-bedroom-corner-day": { "alt": "Villa Coco Kožino apartman 1 soba s odvojenim krevetima", "title": "Villa Coco Kožino", "description": "Apartman 1 - soba s odvojenim krevetima" },
+			"18-villa-coco-kozino-1-bathroom-detail": { "alt": "Villa Coco Kožino apartman 1 detalj kupaonice", "title": "Villa Coco Kožino", "description": "Apartman 1 - detalj kupaonice" },
+			"19-villa-coco-kozino-1-bathroom-vanity-detail": { "alt": "Villa Coco Kožino apartman 1 detalj umivaonika", "title": "Villa Coco Kožino", "description": "Apartman 1 - detalj umivaonika" },
+			"20-villa-coco-kozino-1-bathroom-daylight": { "alt": "Villa Coco Kožino apartman 1 kupaonica na dnevnom svjetlu", "title": "Villa Coco Kožino", "description": "Apartman 1 - kupaonica na dnevnom svjetlu" },
+			"21-villa-coco-kozino-terrace-sunset": { "alt": "Villa Coco Kožino terasa u zalazak sunca", "title": "Villa Coco Kožino", "description": "Terasa u zalazak sunca" },
+			"22-villa-coco-kozino-drone-sea-view": { "alt": "Villa Coco Kožino pogled na more dronom", "title": "Villa Coco Kožino", "description": "Pogled na more dronom" }
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"backgroundAlt": "Pozadina vile",
+		"toastSuccess": "Poruka je uspješno poslana! Javit ćemo vam se uskoro.",
+		"toastError": "Došlo je do pogreške. Pokušajte ponovno.",
+		"directLabel": "Ili nas kontaktirajte izravno:",
+		"form": {
+			"nameLabel": "Ime",
+			"namePlaceholder": "Vaše ime",
+			"emailLabel": "E-pošta",
+			"emailPlaceholder": "vas.email@primjer.hr",
+			"messageLabel": "Poruka",
+			"messagePlaceholder": "Recite nam nešto o svojim planovima...",
+			"privacyNotice": "Slanjem ovog obrasca vaši podaci obrađuju se isključivo radi odgovora na vaš upit.",
+			"privacyLink": "Pročitajte informacije o privatnosti",
+			"sending": "ŠALJEM...",
+			"send": "POŠALJI"
+		}
+	},
+	"privacy": {
+		"title": "Informacije o privatnosti",
+		"intro": "Poštujemo vašu privatnost i obrađujemo osobne podatke u skladu s Općom uredbom o zaštiti podataka (GDPR).",
+		"controller": "Voditelj obrade: Villa Coco Kožino, kontakt putem e-pošte: villacocokozino@gmail.com.",
+		"purpose": "Svrha obrade: odgovor na upite poslane putem kontakt obrasca.",
+		"legalBasis": "Pravna osnova: legitimni interes i/ili poduzimanje radnji prije sklapanja ugovora.",
+		"retention": "Rok čuvanja: podaci se čuvaju samo onoliko dugo koliko je potrebno za obradu upita i povezanu komunikaciju.",
+		"recipients": "Primatelji: pouzdani pružatelji usluga (hosting, e-pošta i tehnička podrška) samo kada je to nužno.",
+		"rights": "Vaša prava: pristup, ispravak, brisanje, ograničenje obrade, prigovor i prenosivost podataka kada je primjenjivo.",
+		"complaint": "Ako smatrate da su vaša prava povrijeđena, možete podnijeti pritužbu nadležnom tijelu za zaštitu podataka (u Hrvatskoj: AZOP)."
+	},
+	"notFound": {
+		"title": "Stranica nije pronađena",
+		"description": "Stranica koju tražite ne postoji ili je premještena.",
+		"backHome": "Natrag na početnu"
+	},
+	"footer": {
+		"copyright": "© {{year}} Villa Coco. Sva prava pridržana.",
+		"privacy": "Privatnost i zaštita podataka",
+		"privacySummary": "Podaci iz kontakt obrasca koriste se isključivo za odgovor na vaš upit. Obrađujemo samo minimalno potrebne podatke i čuvamo ih samo koliko je nužno.",
+		"privacyRights": "Možete zatražiti pristup, ispravak ili brisanje svojih podataka na villacocokozino@gmail.com. Također možete podnijeti pritužbu nadležnom tijelu za zaštitu podataka (Hrvatska: AZOP)."
+	}
+}

@@ -1,0 +1,9 @@
+@import 'tailwindcss' source(none);
+@source '../main.tsx';
+@source '../app/App.tsx';
+@source '../app/components/{Layout,Header,Footer,PageTransition,ScrollToTop}.tsx';
+@source '../app/contexts/**/*.{ts,tsx}';
+@source '../app/features/**/*.{ts,tsx}';
+@source '../app/pages/**/*.{ts,tsx}';
+
+@import 'tw-animate-css';
