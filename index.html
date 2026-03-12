@@ -10,10 +10,21 @@
     <script>
       (() => {
         try {
-          const savedTheme = localStorage.getItem("villaCocoDarkMode");
-          const isDarkMode = savedTheme === "true";
+          const storageKey = "villaCocoThemePreference";
+          const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+          const savedThemePreference = localStorage.getItem(storageKey);
+          const themePreference =
+            savedThemePreference === "light" ||
+            savedThemePreference === "dark" ||
+            savedThemePreference === "system"
+              ? savedThemePreference
+              : "system";
+          const isDarkMode = themePreference === "system"
+            ? mediaQuery.matches
+            : themePreference === "dark";
           const root = document.documentElement;
 
+          localStorage.removeItem("villaCocoDarkMode");
           root.classList.toggle("dark", isDarkMode);
           root.setAttribute("data-theme", isDarkMode ? "dark" : "light");
           root.style.colorScheme = isDarkMode ? "dark" : "light";
