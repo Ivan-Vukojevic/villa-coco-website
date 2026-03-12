@@ -1,5 +1,3 @@
-const assetUrl = (relativePath: string) => new URL(relativePath, import.meta.url).href;
-
 const imgHero640 = "/hero/villa-coco-kozino-hero-day-640w.avif";
 const imgHero768 = "/hero/villa-coco-kozino-hero-day-768w.avif";
 const imgHero960 = "/hero/villa-coco-kozino-hero-day-960w.avif";
@@ -7,16 +5,16 @@ const imgHero1280 = "/hero/villa-coco-kozino-hero-day-1280w.avif";
 const imgHero1920 = "/hero/villa-coco-kozino-hero-day-1920w.avif";
 const imgHero2560 = "/hero/villa-coco-kozino-hero-day-2560w.avif";
 
-const imgAbout640 = assetUrl("./images/hero/villa-coco-kozino-about-interior-640w.avif");
-const imgAbout960 = assetUrl("./images/hero/villa-coco-kozino-about-interior-960w.avif");
-const imgAbout1280 = assetUrl("./images/hero/villa-coco-kozino-about-interior-1280w.avif");
+const imgAbout640 = new URL("./images/hero/villa-coco-kozino-about-interior-640w.avif", import.meta.url).href;
+const imgAbout960 = new URL("./images/hero/villa-coco-kozino-about-interior-960w.avif", import.meta.url).href;
+const imgAbout1280 = new URL("./images/hero/villa-coco-kozino-about-interior-1280w.avif", import.meta.url).href;
 
-const imgContact640 = assetUrl("./images/hero/villa-coco-kozino-contact-booking-640w.avif");
-const imgContact768 = assetUrl("./images/hero/villa-coco-kozino-contact-booking-768w.avif");
-const imgContact960 = assetUrl("./images/hero/villa-coco-kozino-contact-booking-960w.avif");
-const imgContact1280 = assetUrl("./images/hero/villa-coco-kozino-contact-booking-1280w.avif");
-const imgContact1920 = assetUrl("./images/hero/villa-coco-kozino-contact-booking-1920w.avif");
-const imgContact2560 = assetUrl("./images/hero/villa-coco-kozino-contact-booking-2560w.avif");
+const imgContact640 = new URL("./images/hero/villa-coco-kozino-contact-booking-640w.avif", import.meta.url).href;
+const imgContact768 = new URL("./images/hero/villa-coco-kozino-contact-booking-768w.avif", import.meta.url).href;
+const imgContact960 = new URL("./images/hero/villa-coco-kozino-contact-booking-960w.avif", import.meta.url).href;
+const imgContact1280 = new URL("./images/hero/villa-coco-kozino-contact-booking-1280w.avif", import.meta.url).href;
+const imgContact1920 = new URL("./images/hero/villa-coco-kozino-contact-booking-1920w.avif", import.meta.url).href;
+const imgContact2560 = new URL("./images/hero/villa-coco-kozino-contact-booking-2560w.avif", import.meta.url).href;
 
 const imgHeroSrcSet = `${imgHero640} 640w, ${imgHero768} 768w, ${imgHero960} 960w, ${imgHero1280} 1280w, ${imgHero1920} 1920w, ${imgHero2560} 2560w`;
 const imgAboutSrcSet = `${imgAbout640} 640w, ${imgAbout960} 960w, ${imgAbout1280} 1280w`;
