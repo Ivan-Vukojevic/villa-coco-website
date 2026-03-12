@@ -3,8 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="description" content="Modern seaside oasis in Kožino — up to 8 guests, private heated pool.">
     <meta name="keywords" content="Villa Coco Kožino, luxury villa Croatia, villa in Kožino, Zadar accommodation, private heated pool villa, holiday house Croatia, Mediterranean villa rental, family villa near sea, villa rental Zadar, Put Puntice 8 Kožino">
+
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("villaCocoDarkMode");
+          const isDarkMode = savedTheme === "true";
+          const root = document.documentElement;
+
+          root.classList.toggle("dark", isDarkMode);
+          root.setAttribute("data-theme", isDarkMode ? "dark" : "light");
+          root.style.colorScheme = isDarkMode ? "dark" : "light";
+        } catch {
+          document.documentElement.setAttribute("data-theme", "light");
+          document.documentElement.style.colorScheme = "light";
+        }
+      })();
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

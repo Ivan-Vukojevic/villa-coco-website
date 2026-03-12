@@ -9,21 +9,17 @@ const DarkModeContext = createContext<DarkModeContextType | undefined>(undefined
 
 export function DarkModeProvider({ children }: { children: ReactNode }) {
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Check localStorage on initial load
-    const saved = localStorage.getItem("villaCocoDarkMode");
+    const saved = window.localStorage.getItem("villaCocoDarkMode");
     return saved === "true";
   });
 
   useEffect(() => {
-    // Save to localStorage whenever dark mode changes
-    localStorage.setItem("villaCocoDarkMode", String(isDarkMode));
-    
-    // Apply dark mode class to document
-    if (isDarkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
+    const root = document.documentElement;
+
+    window.localStorage.setItem("villaCocoDarkMode", String(isDarkMode));
+    root.classList.toggle("dark", isDarkMode);
+    root.setAttribute("data-theme", isDarkMode ? "dark" : "light");
+    root.style.colorScheme = isDarkMode ? "dark" : "light";
   }, [isDarkMode]);
 
   const toggleDarkMode = () => {
